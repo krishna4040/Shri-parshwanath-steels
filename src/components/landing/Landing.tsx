@@ -5,7 +5,7 @@ import About from './components/About'
 
 const Landing = () => {
     return (
-        <section className='bg-gradient-to-br from-[#09090b] to-[#09090b] border'>
+        <section>
             <Hero />
             <Products />
             <About />

@@ -23,7 +23,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className='px-10 py-16 w-full'>
+        <div className='w-full flex flex-col items-start justify-center gap-5 px-10 py-16 bg-gradient-to-br from-[#09090b] to-[#09090b] border'>
             <div className='flex flex-col items-start justify-center gap-8'>
                 <h6 className='text-[#84889a]'>Shri Parshwanath Steels</h6>
                 <h1 className='text-[80px] leading-[80px] text-white'>The Morden Platform For Growth on your terms</h1>
@@ -39,19 +39,17 @@ const Hero = () => {
                         photos.map((photo, idx) => {
                             return (
                                 <SwiperSlide key={idx}>
-                                    <img src={photo} alt="photo" height={100} width={100} />
+                                    <div className='w-[100px] h-[100px]'><img src={photo} alt="photo" className='w-full' /></div>
                                 </SwiperSlide>
                             )
                         })
                     }
-                    {/* <SwiperSlide>slide 1</SwiperSlide>
-                    <SwiperSlide>slide 2</SwiperSlide>
-                    <SwiperSlide>slide 3</SwiperSlide>
-                    <SwiperSlide>slide 4</SwiperSlide>
-                    <SwiperSlide>slide 5</SwiperSlide>
-                    <SwiperSlide>slide 6</SwiperSlide>
-                    <SwiperSlide>slide 7</SwiperSlide> */}
                 </Swiper>
+            </div>
+            <div>
+                <p className='text-[#ffffff]'>We are Eliminating the friction and basis of traditional financing</p>
+                <p className='text-[#84889a]'>Connecting buissness builders ro quick, easy capital and</p>
+                <p className='text-[#84889a]'>helping small to mid-size buissness build someting bigger</p>
             </div>
         </div>
     )
