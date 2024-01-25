@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({ text }: { text: string }) => {
+const Button = ({ text }: { text: string | React.ReactNode }) => {
     return <button className='bg-white text-black py-[7px] px-[18px] text-xs rounded-full'>{text}</button>
 }
 
