@@ -14,7 +14,7 @@ const Footer = () => {
                             Your one stop shop for the tech, buissness and <br />
                             finance news you need to know each week
                         </p>
-                        <Button text='Products' />
+                        <Button linkto='/products' text='Products' />
                     </div>
                     <div className='flex items-start gap-5'>
                         <div>
@@ -59,7 +59,7 @@ const Footer = () => {
                     <li>Privacy policy</li>
                     <li>Responsible disclosure</li>
                     <li>Terms of use</li>
-                    <li className='text-[#5c5f70]'>&cp2024 shri parshwanath steels inc. All rights reserved</li>
+                    <li className='text-[#5c5f70]'>&#169;2024 shri parshwanath steels inc. All rights reserved</li>
                 </ul>
             </div>
         </footer>

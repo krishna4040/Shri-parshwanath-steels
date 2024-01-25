@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { useNavigate } from 'react-router-dom';
+import Button from '../../common/Button';
 
 const Hero = () => {
 
@@ -39,7 +40,7 @@ const Hero = () => {
                     <h6 className='text-[#84889a]'>Shri Parshwanath Steels</h6>
                     <h1 className='text-[80px] leading-[80px] text-white'>The Morden Platform For Growth on your terms</h1>
                 </div>
-                <button className='bg-white text-black py-[7px] px-[18px] text-xs rounded-full' onClick={() => { navigate('/products') }}>Checkout Product Page</button>
+                <Button text='checkout product page' linkto='/products' />
             </div>
             <div className='w-full mx-auto'>
                 <Swiper

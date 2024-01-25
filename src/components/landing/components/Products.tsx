@@ -32,7 +32,7 @@ const Products = () => {
                 <p className='text-xs text-[#84889a]'>Latest Products</p>
                 <p className='text-4xl text-[#121316]'>More information you want to cover</p>
             </div>
-            <div className='grid items-start grid-cols-3 px-10 py-8 justify-items-center gap-x-10 gap-y-3'>
+            <div className='grid items-center grid-cols-3 px-10 py-8 justify-items-center gap-y-10'>
                 {
                     photos.splice(0, 6).map((photo, idx) => {
                         return <ProductCard

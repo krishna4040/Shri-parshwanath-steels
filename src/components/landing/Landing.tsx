@@ -5,7 +5,7 @@ import About from './components/About'
 
 const Landing = () => {
     return (
-        <section>
+        <section className='w-full'>
             <Hero />
             <Products />
             <About />
