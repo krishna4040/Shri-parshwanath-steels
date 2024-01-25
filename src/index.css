@@ -7,3 +7,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+.nav-hide {
+    top: -100px;
+}
